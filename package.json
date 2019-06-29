@@ -4,5 +4,8 @@
     "addons/*",
     "engines/*",
     "host-app"
-  ]
+  ],
+  "scripts": {
+    "serve": "cd ./host-app && ember serve"
+  }
 }
